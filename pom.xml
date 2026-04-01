@@ -58,12 +58,6 @@
             <version>5.9.3</version>
             <scope>test</scope>
         </dependency>
-        <dependency>
-            <groupId>io.camunda</groupId>
-            <artifactId>zeebe-exporter-api</artifactId>
-            <version>${zeebe.version}</version>
-            <scope>test</scope>
-        </dependency>
     </dependencies>
 
     <build>
