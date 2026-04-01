@@ -89,7 +89,7 @@ public class KafkaExporterConfiguration {
     // record types to export
     public boolean command = false;
     public boolean event = true;
-    public boolean rejection = false;
+    public boolean rejection = true;
 
     // value types to export
     public boolean deployment = true;
@@ -97,8 +97,8 @@ public class KafkaExporterConfiguration {
     public boolean incident = true;
     public boolean job = true;
     public boolean jobBatch = false;
-    public boolean message = false;
-    public boolean messageSubscription = false;
+    public boolean message = true;
+    public boolean messageSubscription = true;
     public boolean variable = true;
     public boolean variableDocument = true;
     public boolean workflowInstance = true;
